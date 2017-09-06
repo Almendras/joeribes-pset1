@@ -9,3 +9,5 @@ The application starts with a potato body where you can add features such as arm
 
 ## Screenshots
 
+![Alt text](/doc/portrait.png?raw=true "Portrait")
+![Alt text](/doc/landscape.png?raw=true "Landscape")
