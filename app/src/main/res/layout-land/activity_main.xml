@@ -29,85 +29,75 @@
             android:columnCount="2">
 
             <CheckBox
-                android:id="@+id/checkBox1"
+                android:id="@+id/checkBoxArms"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:checked="false"
                 android:duplicateParentState="false"
                 android:onClick="checkboxClicked"
                 android:text="Arms" />
 
             <CheckBox
-                android:id="@+id/checkBox2"
+                android:id="@+id/checkBoxEars"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:onClick="checkboxClicked"
                 android:text="Ears" />
 
             <CheckBox
-                android:id="@+id/checkBox3"
+                android:id="@+id/checkBoxEyebrows"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:onClick="checkboxClicked"
                 android:text="Eyebrows" />
 
             <CheckBox
-                android:id="@+id/checkBox4"
+                android:id="@+id/checkBoxEyes"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:onClick="checkboxClicked"
                 android:text="Eyes" />
 
 
             <CheckBox
-                android:id="@+id/checkBox5"
+                android:id="@+id/checkBoxGlasses"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:onClick="checkboxClicked"
                 android:text="Glasses" />
 
             <CheckBox
-                android:id="@+id/checkBox6"
+                android:id="@+id/checkBoxHat"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:onClick="checkboxClicked"
                 android:text="Hat" />
 
             <CheckBox
-                android:id="@+id/checkBox7"
+                android:id="@+id/checkBoxMouth"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:onClick="checkboxClicked"
                 android:text="Mouth" />
 
             <CheckBox
-                android:id="@+id/checkBox8"
+                android:id="@+id/checkBoxMustache"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:onClick="checkboxClicked"
                 android:text="Mustache" />
 
             <CheckBox
-                android:id="@+id/checkBox9"
+                android:id="@+id/checkBoxNose"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:onClick="checkboxClicked"
                 android:text="Nose" />
 
             <CheckBox
-                android:id="@+id/checkBox10"
+                android:id="@+id/checkBoxShoes"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:onClick="checkboxClicked"
                 android:text="Shoes" />
 

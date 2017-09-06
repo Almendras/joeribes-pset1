@@ -6,11 +6,6 @@ import android.view.View;
 import android.widget.CheckBox;
 import android.widget.ImageView;
 
-
-
-
-
-
 public class MainActivity extends AppCompatActivity {
 
     private View Arms, Ears, Eyebrows, Eyes, Glasses, Hat, Mouth, Mustache, Nose, Shoes;
@@ -41,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Check which checkbox was clicked
         switch(view.getId()) {
-            case R.id.checkBox1:
+            case R.id.checkBoxArms:
                 if (checked) {
                     Arms.setVisibility(View.VISIBLE);
                 }
@@ -49,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
                     Arms.setVisibility(View.INVISIBLE);
                 }
                 break;
-            case R.id.checkBox2:
+            case R.id.checkBoxEars:
                 if (checked) {
                     Ears.setVisibility(View.VISIBLE);
                 }
@@ -57,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
                     Ears.setVisibility(View.INVISIBLE);
                 }
                 break;
-            case R.id.checkBox3:
+            case R.id.checkBoxEyebrows:
                 if (checked) {
                     Eyebrows.setVisibility(View.VISIBLE);
                 }
@@ -65,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
                     Eyebrows.setVisibility(View.INVISIBLE);
                 }
                 break;
-            case R.id.checkBox4:
+            case R.id.checkBoxEyes:
                 if (checked) {
                     Eyes.setVisibility(View.VISIBLE);
                 }
@@ -73,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
                     Eyes.setVisibility(View.INVISIBLE);
                 }
                 break;
-            case R.id.checkBox5:
+            case R.id.checkBoxGlasses:
                 if (checked) {
                     Glasses.setVisibility(View.VISIBLE);
                 }
@@ -81,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
                     Glasses.setVisibility(View.INVISIBLE);
                 }
                 break;
-            case R.id.checkBox6:
+            case R.id.checkBoxHat:
                 if (checked) {
                     Hat.setVisibility(View.VISIBLE);
                 }
@@ -89,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
                     Hat.setVisibility(View.INVISIBLE);
                 }
                 break;
-            case R.id.checkBox7:
+            case R.id.checkBoxMouth:
                 if (checked) {
                     Mouth.setVisibility(View.VISIBLE);
                 }
@@ -97,7 +92,7 @@ public class MainActivity extends AppCompatActivity {
                     Mouth.setVisibility(View.INVISIBLE);
                 }
                 break;
-            case R.id.checkBox8:
+            case R.id.checkBoxMustache:
                 if (checked) {
                     Mustache.setVisibility(View.VISIBLE);
                 }
@@ -105,7 +100,7 @@ public class MainActivity extends AppCompatActivity {
                     Mustache.setVisibility(View.INVISIBLE);
                 }
                 break;
-            case R.id.checkBox9:
+            case R.id.checkBoxNose:
                 if (checked) {
                     Nose.setVisibility(View.VISIBLE);
                 }
@@ -113,7 +108,7 @@ public class MainActivity extends AppCompatActivity {
                     Nose.setVisibility(View.INVISIBLE);
                 }
                 break;
-            case R.id.checkBox10:
+            case R.id.checkBoxShoes:
                 if (checked) {
                     Shoes.setVisibility(View.VISIBLE);
                 }
